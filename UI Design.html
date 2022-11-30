@@ -1,0 +1,265 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>
+             
+        </title>
+        <style>
+  .yellow__box{
+	top: 0px;
+	left: 0px;
+  position:absolute;
+  width:50%;
+  height: 150%;
+  background:rgb(95, 138, 219);
+  z-index:1;
+}
+.red__box{
+  top:100px;
+  left:300px;
+  position:absolute;
+  width:60%;
+  height: 110%;
+  background: white;
+  border-radius: 30px;
+  z-index:3;
+}
+.orange__box{
+  top:0px;
+  left:670px;
+  position:absolute;
+  width:50%;
+  height:150%;
+  background:rgb(199, 196, 192);
+  z-index:2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.grad{
+	position: absolute;
+	top: 20px;
+	left: 350px;
+	right: 40px;
+	bottom: 40px;
+	width: auto;
+	height: auto;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+	z-index: 1;
+	opacity: 0.7;
+	border-radius: 10px;
+}
+
+.header{
+	position: absolute;
+	top: calc(50% - 35px);
+	left: calc(50% - 255px);
+	z-index: 2;
+}
+
+.header div{
+	float: left;
+	color: ;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+}
+
+.header div span{
+	color: #5379fa !important;
+}
+
+.forming{
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
+
+.login{
+	position: absolute;
+	top: calc(50% - 75px);
+	left: calc(50% - 50px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.login input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 10px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.login input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 10px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.login input[type=button]{
+	width: 260px;
+	height: 35px;
+	background: rgb(115, 160, 226);
+	border: 1px solid rgb(119, 152, 214);
+	cursor: pointer;
+	border-radius: 10px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+.login{
+  margin-bottom: 300px;
+}
+.login input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.login input[type=button]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255, 255, 255, 0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+.label{
+    color: rgb(27, 19, 19);
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+.acc{
+    color: rgb(27, 19, 19);
+}
+
+
+
+
+
+
+
+
+
+        </style>
+    </head>
+<body>
+    <div class="yellow__box"></div>
+
+
+
+
+    <div class="red__box">
+
+
+
+
+
+      <div class="body"></div>
+      <div class="grad"></div>
+      <div class="header">
+        <div>Site<span>Random</span></div>
+      </div>
+      <br>
+
+
+
+
+      <form class="forming">
+      <div class="login">
+  
+  
+              
+  
+           <p><h3 class="acc">create your account</h3></p>
+              <p>it's free and easy</p>
+    
+          
+  
+  
+  
+      
+  
+  
+  
+                   <label class="label">Your name</label><br/>
+          <input type="text" placeholder="enter your name" name="user"><br>
+                  <label class="label">E-mail or phone number</label><BR/>
+                  <input type="text" placeholder="enter your E-mail or phone numebr" name="user"><br>
+                  <label class="label">password</label><br/>
+          <input type="password" placeholder="password" name="password"><br>
+  
+  
+                  <p class="fieldset">
+                      <input type="checkbox" id="remember-me" checked>
+                      <label for="remember-me">By reaching an account means you aggree to the <a href="">terms and conditions</a>, and our <a href="">policies</a></label>
+                  </p>
+  
+  
+				  <i class="fa fa-apple" style="font-size:36px"></i>
+          <input type="button" value="Register">
+      </div>
+</form>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <div class="orange__box"></div>
+</body>
+
+</html>
